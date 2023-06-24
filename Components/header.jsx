@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
 import { getCategories } from '../services';
@@ -17,7 +17,7 @@ const Header = () => {
       <div className="border-b w-full inline-block border-blue-400 py-8">
         <div className="md:float-left block">
           <Link href="/">
-            <span className="cursor-pointer font-bold text-4xl text-white">ViralVibes</span>
+            <span className="cursor-pointer font-bold text-4xl text-white">Graph CMS</span>
           </Link>
         </div>
         <div className="hidden md:float-left md:contents">
