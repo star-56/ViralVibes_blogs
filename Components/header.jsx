@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { getCategories } from '../services';
+
 const Header = () => {
   const [categories, setCategories] = useState([]);
 
