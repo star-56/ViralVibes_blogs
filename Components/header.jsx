@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { getCategories } from '../services';
 
-const header = () => {
+const Header = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
@@ -30,4 +30,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
