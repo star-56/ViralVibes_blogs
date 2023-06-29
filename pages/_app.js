@@ -1,4 +1,4 @@
-
+"use client";
 import { Layout } from '../Components';
 import '../styles/globals.scss';
 
