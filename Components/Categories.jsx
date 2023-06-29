@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+"use client";
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 import { getCategories } from '../services';
 

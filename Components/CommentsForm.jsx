@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+"use client";
+import { useEffect, useState } from 'react';
 import { submitComment } from '../services';
 
 const CommentsForm = ({ slug }) => {

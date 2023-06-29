@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
+"use client";
 import moment from 'moment';
+import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
+import { getRecentPosts, getSimilarPosts } from '../services';
 import { grpahCMSImageLoader } from '../util';
-import { getSimilarPosts, getRecentPosts } from '../services';
 
 const PostWidget = ({ categories, slug }) => {
   const [relatedPosts, setRelatedPosts] = useState([]);
