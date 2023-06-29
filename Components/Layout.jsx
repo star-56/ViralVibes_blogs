@@ -1,4 +1,4 @@
-import Header from './Header.jsx';
+import Header from './header.jsx';
 
 const Layout = ({ children }) => {
   return (
